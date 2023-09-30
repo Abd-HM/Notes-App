@@ -28,7 +28,7 @@ class NoteItem extends StatelessWidget {
                 'Some trash text that no body cares about',
                 style: TextStyle(
                   color: Colors.black.withOpacity(.5),
-                  fontSize: 18,
+                  fontSize: 16,
                 ),
               ),
             ),
