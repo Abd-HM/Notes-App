@@ -17,8 +17,12 @@ class SimpleBlocObserver implements BlocObserver {
   void onTransition(Bloc bloc, Transition transition) {}
 
   @override
-  void onClose(BlocBase bloc) {}
+  void onClose(BlocBase bloc) {
+    debugPrint('close = $bloc');
+  }
 
   @override
-  void onCreate(BlocBase bloc) {}
+  void onCreate(BlocBase bloc) {
+     debugPrint('create = $bloc');
+  }
 }
